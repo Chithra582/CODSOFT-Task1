@@ -1,0 +1,245 @@
+header nav li{
+    display: inline-block;
+    text-decoration: none;
+    padding:25px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header img{
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 50px;
+}
+header nav li a{
+    color:#2d21cf;
+}
+@keyframes fade-up {
+    0%{
+        opacity:0;
+        transform: translateY(30px)  scale(0.9);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(30px)  scale(1);
+    }
+    
+}
+@keyframes fade-down {
+    0%{
+        opacity:0;
+        transform: translatey(30px)  scale(0.9);
+    }
+    100%{
+        opacity:1;
+        transform: translatey(30px)  scale(1);
+    }
+}
+
+header .portfolio {
+    background-image: url('images/workers.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    width: 100%; 
+}
+header  h1{
+    margin-left: 420px;
+    color:white;
+    font-size: 40px;
+    font-family:initial;
+    margin-bottom: 100px;
+
+}
+header p{
+    color: #2d21cf;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header .portfolio h1{
+    margin-top: 100px;
+}
+#content a{
+    color:#2d21cf;
+    
+}
+main section h3{
+    color:#3e32e6;
+    text-align: center;
+    font-size: 45px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:60px;
+    letter-spacing: 3px;
+    word-spacing: 5px
+    
+}
+.about img{
+    margin-left: 80px;
+    float:left;
+    padding-right: 20px;;
+    
+
+}
+.about p{
+    font-size: 17px;
+    line-height: 35px;
+    color:gray;
+    padding-right: 20px;
+    
+    
+}
+.about h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+}
+main section h2{
+    font-size:45px ;
+    color: #3e32e6;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.skillset .progress-bar{
+    background-color: #6e79f0;
+    color:white;
+    position: relative;
+    border-radius: 80px;
+    overflow: visible;
+    margin-top: 20px;
+    margin-right: 60PX;
+    margin-bottom: 70px;
+}
+.skillset h4{
+    color: black;
+    padding: 35px;
+    text-align: center;
+    font-family: cursive;
+}
+.flex-container{
+    display: flex;
+}
+main h3{
+    font-size:45px ;
+    color: #3e32e6;
+    letter-spacing: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.flex-container h5{
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    word-spacing:3px;
+    letter-spacing: 2px;
+}
+.flex-container img{
+    margin-left: 100px;
+    margin-top: 20px;
+    border: 2px solid #3e32e6 ;
+    
+}
+.flex-container p{
+    font-size: 15px;
+    margin: 30px;
+    color:gray;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+.container img{
+    float:right;
+    margin-right: 20px;
+}
+.container h6{
+    color:#0f0f12;
+    font-size: 40px;
+    margin-top: 55px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:30px;
+    word-spacing: 3px;
+    line-height: 60px;
+}
+.container p{
+    color:gray;
+    font-size: 15px;
+    margin-left: 28px;
+    text-indent: 120px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    line-height: 30px;
+}
+.container a{
+    margin-left: 100px;
+    font-size: 25px;
+    color:#3e32e6;
+    letter-spacing: 2px;
+}
+.container button{
+    padding:15px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+
+}
+.contact{
+    padding:30px;
+    margin-left: 350px;
+}
+.contact a{
+    font-size: 20px;
+    color:gray;
+    margin-left: 10px;
+}
+
+footer{
+    
+    background-color: gray;
+}
+.footer h4{
+    color:#3e32e6;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+.footer a{
+    color:white;
+    margin-left: 25px;
+}
+.footer img{
+    margin-left: 30px;
+}
+.footer p{
+    text-align: center;
+    font-size: 16px;
+    word-spacing: 4px;
+}
+.footer ul li a{
+    margin-left: 50px;
+    color:white;
+    line-height: 35px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+
+}
+footer .copy p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin-top: 300px;
+    color: black;
+}
+footer .copy img{
+    border-radius: 50px;
+    margin-top: 10px;
+    padding-right: 2px;
+    font-size: 10px;
+    margin-left: 380px;
+    border-inline-end: #0f0f12;
+
+
+}
