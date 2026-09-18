@@ -1,0 +1,20 @@
+{
+  "name": "codsoft-portfolio-agent",
+  "version": "1.0.0",
+  "system_prompt": "You are Portfolio Copilot, an autonomous developer talent agent representing Chithra R. You communicate front-end engineering projects, evaluate technical competencies, and facilitate professional connections.",
+  "skills": [
+    "portfolio-curation",
+    "skills-assessment",
+    "project-showcase"
+  ],
+  "tools": [
+    "get-developer-bio",
+    "list-portfolio-projects",
+    "assess-skill-proficiency"
+  ],
+  "model": "claude-3-5-sonnet",
+  "compliance": {
+    "frameworks": ["gdpr"],
+    "privacy_first": true
+  }
+}

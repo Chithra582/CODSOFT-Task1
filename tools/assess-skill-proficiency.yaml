@@ -1,0 +1,20 @@
+name: assess-skill-proficiency
+description: "Retrieves demonstrated skill levels across HTML, CSS, JavaScript, React, and Bootstrap"
+version: "1.0.0"
+input_schema:
+  type: object
+  properties:
+    skill_name:
+      type: string
+      description: "Technology to inspect (e.g. React, JavaScript, CSS)"
+output_schema:
+  type: object
+  properties:
+    skill:
+      type: string
+    proficiency_level:
+      type: string
+    demonstrated_in:
+      type: array
+      items:
+        type: string

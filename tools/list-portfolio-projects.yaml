@@ -1,0 +1,27 @@
+name: list-portfolio-projects
+description: "Lists developer portfolio projects with descriptions, tech stacks, and preview assets"
+version: "1.0.0"
+input_schema:
+  type: object
+  properties:
+    category:
+      type: string
+      description: "Optional filter by category (e.g. web, responsive, react)"
+output_schema:
+  type: object
+  properties:
+    projects:
+      type: array
+      items:
+        type: object
+        properties:
+          title:
+            type: string
+          description:
+            type: string
+          technologies:
+            type: array
+            items:
+              type: string
+          preview_url:
+            type: string

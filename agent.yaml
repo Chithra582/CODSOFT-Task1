@@ -1,0 +1,56 @@
+spec_version: "0.1.0"
+name: "codsoft-portfolio-agent"
+version: "1.0.0"
+description: "Autonomous technical portfolio and developer talent agent showcasing front-end engineering craft, interactive web projects, and verified skill telemetry."
+author: "Chithra R"
+license: "MIT"
+
+model:
+  preferred: "gemini-2.0-flash"
+  fallback:
+    - "gpt-4o-mini"
+    - "claude-3-5-sonnet"
+  constraints:
+    temperature: 0.2
+    max_tokens: 4096
+
+skills:
+  - portfolio-curation
+  - skills-assessment
+  - project-showcase
+
+tools:
+  - get-developer-bio
+  - list-portfolio-projects
+  - assess-skill-proficiency
+
+compliance:
+  risk_tier: standard
+  frameworks:
+    - gdpr
+  data_governance:
+    pii_handling: redact
+    data_classification: internal
+    consent_required: false
+    cross_border: true
+    bias_testing: false
+  recordkeeping:
+    audit_logging: true
+    log_format: structured_json
+    retention_period: 1y
+    immutable: true
+  supervision:
+    human_in_the_loop: conditional
+    override_capability: true
+    kill_switch: true
+
+tags:
+  - "developer-tools"
+  - "portfolio"
+  - "front-end"
+  - "career-agent"
+  - "talent-discovery"
+
+metadata:
+  domain: "developer-tools"
+  category: "Developer tools"

@@ -1,0 +1,23 @@
+name: get-developer-bio
+description: "Retrieves candidate bio, professional title, mission statement, and core career focus"
+version: "1.0.0"
+input_schema:
+  type: object
+  properties:
+    candidate_id:
+      type: string
+      description: "Identifier for candidate (default: chithra)"
+      default: chithra
+output_schema:
+  type: object
+  properties:
+    name:
+      type: string
+    title:
+      type: string
+    specialization:
+      type: string
+    bio:
+      type: string
+    location:
+      type: string
